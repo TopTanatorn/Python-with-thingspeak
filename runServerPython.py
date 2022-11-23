@@ -8,8 +8,8 @@ import queue
 import schedule as sc
 
 q = queue.Queue()
-url = "https://api.thingspeak.com/channels/1704499/feeds.json?api_key=Z70IVJ1X27AVPQ6C&results=2"
-Rkey = "MC9FFB16PZV2BSWR"
+url = "https://api.thingspeak.com/channels/1704499/feeds.json?api_key=xxxx&results=2"
+Rkey = "xxxx"
 latStation = [7.865661,7.881308,7.893300,7.887864,7.890755,7.882510,7.885414] # lat of stantion point
 lonStation = [98.397750,98.364982,98.368747,98.371470,98.390563,98.404646,98.430988] # lon of stantion point
 bc = blockchain.Blockchain()# create first blockchain
